@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right , rgb(28, 16, 115) , rgb(2, 2, 36));
+    color: white;
+}
+#img_1{
+    width: 40%;
+    height: 40vh;
+    background-color: rgb(43, 43, 146);
+    margin: 0 auto;
+    /* margin-top: 120px; */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 20px  40px black;
+}
+.min h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#box h2{
+    text-align: center;
+    font-weight: 10;
+}
+.button_1{
+    margin-left: 85px;
+    padding: 10px;
+    /* gap: 10; */
+}
+.button_1 button{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(5, 5, 59);
+    color: white;
+    border: 1px solid white;
+    box-shadow: 5px 10px 30px black;
+    transition: 0.8s;
+}
+.button_1 button:hover{
+    background-color: rgb(43, 43, 146) ;
+    scale: 2px;
+    width: 97px;
+    height: 47px;
+}
+
+#box_1 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#para{
+    margin-left:100 ;
+    font-size: 2rem;
+}
+
+#p_js{
+color: green;
+margin-left: 100px;
+font-size: 2rem;
+}
+#p_js2{
+    color: red;
+    margin-left: 100px;
+font-size: 2rem;
+}
+
+@media (max-width: 650px) {
+    #img_1{
+        width: 80%;
+        height: 30vh;
+        background-color: rgb(43, 43, 146);
+        margin: 0 auto;
+        /* margin-top: 120px; */
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 10px 20px  40px black;
+    }
+    .button_1{
+        margin-left: 15px;
+        padding: 10px;
+        /* gap: 10; */
+    }
+    #box_1 {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    #para{
+        margin-left:10 ;
+        font-size: 2rem;
+    }
+    #p_js{
+        color: green;
+        margin-left: 20px;
+        font-size: 2rem;
+        }
+        #p_js2{
+            color: red;
+            margin-left: 20px;
+        font-size: 2rem;
+        }
+        
+    
+}
